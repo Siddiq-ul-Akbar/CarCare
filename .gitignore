@@ -1,0 +1,9 @@
+
+.idea/CarCare.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+auth-service/mvnw.cmd
+auth-service/mvnw
+auth-service/.mvn/wrapper/maven-wrapper.properties
+auth-service/.gitattributes
