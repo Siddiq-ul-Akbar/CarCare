@@ -1,0 +1,17 @@
+curl --location 'http://localhost:8082/api/vehicles' \
+--header 'X-User-Id: 1' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: JSESSIONID=CEB9C426A8D0D3C4FC50BE692800AA8B' \
+--data '{
+  "vin": "KL20A6474",
+  "model": "Swift",
+  "color": "silver",
+  "year": 2009
+}'
+
+
+
+curl --location 'http://localhost:8082/api/vehicles' \
+--header 'X-User-Id: 1' \
+--header 'Cookie: JSESSIONID=CEB9C426A8D0D3C4FC50BE692800AA8B' \
+--data ''

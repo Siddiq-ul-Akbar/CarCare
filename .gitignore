@@ -7,3 +7,7 @@ auth-service/mvnw.cmd
 auth-service/mvnw
 auth-service/.mvn/wrapper/maven-wrapper.properties
 auth-service/.gitattributes
+vehicle-service/.gitattributes
+vehicle-service/.mvn/wrapper/maven-wrapper.properties
+vehicle-service/mvnw
+vehicle-service/mvnw.cmd
