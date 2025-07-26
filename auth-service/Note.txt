@@ -1,0 +1,15 @@
+curl --location 'http://localhost:8081/api/auth/register' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "username": "name",
+  "email": "name@example.com",
+  "password": "pass123"
+}'
+
+
+curl --location 'http://localhost:8081/api/auth/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "email": "siddiq@example.com",
+  "password": "pass123"
+}'
